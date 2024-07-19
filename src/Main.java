@@ -20,8 +20,8 @@ public class Main {
                 continue;
             }
             if ((fileExists == true) && (isDirectory == false)) {
-                count +=1;
-                System.out.println("Путь указан верно, это файл номер "+ count);
+                count += 1;
+                System.out.println("Путь указан верно, это файл номер " + count);
             }
         }
 
