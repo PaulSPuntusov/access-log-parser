@@ -9,8 +9,6 @@ public class Main {
             File file = new File(path);
             boolean fileExists = file.exists();
             boolean isDirectory = file.isDirectory();
-            System.out.println(fileExists);
-            System.out.println(isDirectory);
             if (fileExists == false) {
                 System.out.println("Ошибочно введен путь, или файл не существует");
                 continue;
